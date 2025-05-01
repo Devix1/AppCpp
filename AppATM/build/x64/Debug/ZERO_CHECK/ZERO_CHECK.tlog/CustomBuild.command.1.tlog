@@ -1,0 +1,10 @@
+^W:\CODE\C++\APPCPP\APPATM\BUILD\CMAKEFILES\5D956519BC80153EFFDD91E22CDF2DBB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SW:/Code/C++/AppCpp/AppATM -BW:/code/c++/AppCpp/AppATM/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file W:/code/c++/AppCpp/AppATM/build/AppATM.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
