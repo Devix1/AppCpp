@@ -196,5 +196,4 @@ int main()
     return -1;
 }
 
-// cout << "Enter an amount up to $100,000"<<endl;
-//           cin >> topUp;
+
